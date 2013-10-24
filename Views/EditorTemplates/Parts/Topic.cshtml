@@ -1,0 +1,10 @@
+﻿@using Orchard.Learning.Models
+@model TopicPart
+           
+<fieldset>
+    <legend>@T("Topics")</legend>
+    @Html.LabelFor(m => m.TopicName, T("TopicName"))
+    @Html.TextBoxFor(m => m.TopicName)
+    @Html.LabelFor(m => m.TopicDescription,T("TopicDescription"))
+    @Html.TextBoxFor(m => m.TopicDescription)
+</fieldset>

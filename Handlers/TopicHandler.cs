@@ -8,6 +8,7 @@ namespace Orchard.Learning.Handlers
     {
         public TopicHandler(IRepository<TopicPartRecord> topicRepository) {
             Filters.Add(StorageFilter.For(topicRepository));
+            // plumbing for saving the data in the database using the StorageFilter
         }
     }
 }

@@ -1,4 +1,5 @@
 Orchard.Learning
 ================
 
-Learning Orchard Module Development
+Learning Orchard CMS Module Development
+
